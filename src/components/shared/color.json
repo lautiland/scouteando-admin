@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_colors",
+  "info": {
+    "displayName": "Color",
+    "icon": "paint"
+  },
+  "options": {},
+  "attributes": {
+    "Color": {
+      "type": "customField",
+      "customField": "plugin::color-picker.color",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "required": false
+    }
+  },
+  "config": {}
+}
